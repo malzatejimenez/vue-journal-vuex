@@ -4,7 +4,7 @@ import * as getters from "./getters";
 import * as mutations from "./mutations";
 
 const journalModule = {
-  namespace: true,
+  namespaced: true,
   state,
   actions,
   getters,
